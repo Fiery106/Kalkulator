@@ -1,3 +1,73 @@
 h1 {
     border: 2px solid green;
 }
+
+.kalkulator {
+    max-width: 400px;
+}
+
+.sum {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    border-radius: 16px;
+    font-size: 3.2em;
+
+    padding: 10px 0;
+    margin: 8px 0;
+}
+
+.kalkulator-bg {
+    display: grid;
+
+    background-color: crimson;
+    height: 400px;
+    padding: 40px;
+
+    border-radius: 16px;
+}
+
+.operator, .tall, #submit {
+    border: none;
+    border-radius: 16px;
+    font-size: 1.6em;
+
+    margin: 4px;
+}
+
+.operator {
+    background-color: sandybrown;
+}
+
+.tall {
+    background-color: lightyellow;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+
+    grid-column: 4;
+    grid-row: span 2;
+}
+
+.row1 {
+    grid-row: 1;
+}
+
+.row2 {
+    grid-row: 2;
+}
+
+.row3 {
+    grid-row: 3;
+}
+
+.row4 {
+    grid-row: 4;
+}
+
+.row5 {
+    grid-row: 5;
+}
