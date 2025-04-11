@@ -20,6 +20,7 @@ h1 {
 
 .kalkulator-bg {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
 
     background-color: crimson;
     height: 400px;
@@ -48,26 +49,5 @@ h1 {
     background-color: black;
     color: white;
 
-    grid-column: 4;
     grid-row: span 2;
-}
-
-.row1 {
-    grid-row: 1;
-}
-
-.row2 {
-    grid-row: 2;
-}
-
-.row3 {
-    grid-row: 3;
-}
-
-.row4 {
-    grid-row: 4;
-}
-
-.row5 {
-    grid-row: 5;
 }
