@@ -13,38 +13,34 @@ function addNum(x) {
     }
 
     isCalculating = true;
-    sum.innerHTML += x
     num1 += x;
-    console.log(num1)
 }
 
 function addOperator() {
-    calcFunc()
-    isCalculating = true;
-    sum.innerHTML += " + <br>"
-    num2 += Number(num1);
-    num1 = 0;
+   //add operator
+   num2 += Number(num1);
+   num1 = 0;
+   console.log(num2)
 }
 
-/*
+
 function minusOperator() {
-    calcFunc()
-    isCalculating = true;
-    sum.innerHTML += " - <br>"
-    num2 += Number(num1);
-    num1 = 0;
-} */
+   //add operator
+   num2 -= Number(num1);
+   num1 = 0;
+   console.log(num2)
+} 
 
 
 function writeOutput() {
     
 }
 
-function calcFunc() {
-    sum.innerHTML = Number(num1) + Number(num2)
+function calcFunc(x = "") {
+    let total = Number(num1) + num2;
+    console.log(total)
+    num1 = total;
     isCalculating = false;
-
-    console.log(num1, num2)
 }
 
 function clearFunc() {
