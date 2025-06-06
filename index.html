@@ -15,63 +15,63 @@
                 Kalkulator
             </h1>
 
-            <p class="sum">
-                0
+            <p class="sum" id="sum">
+                
             </p>
 
             <div class="kalkulator-bg">
-                <button class="operator">
+                <button class="operator" onclick="addOperator()">
                     +
                 </button>
-                <button class="tall">
+                <button class="tall" onclick="addNum(7)">
                     7
                 </button>
-                <button class="tall">
+                <button class="tall" onclick="addNum(8)">
                     8
                 </button>
-                <button class="tall">
+                <button class="tall" onclick="addNum(9)">
                     9
                 </button>
 
 
-                <button class="operator">
+                <button class="operator" onclick="minusOperator()">
                     -
                 </button>
-                <button class="tall">
+                <button class="tall" onclick="addNum(4)">
                     4
                 </button>
-                <button class="tall">
+                <button class="tall" onclick="addNum(5)">
                     5
                 </button>
-                <button class="tall">
+                <button class="tall" onclick="addNum(6)">
                     6
                 </button>
 
 
-                <button class="operator">
+                <button class="operator" onclick="multOperator()">
                     *
                 </button>
-                <button class="tall">
+                <button class="tall" onclick="addNum(1)">
                     1
                 </button>
-                <button class="tall">
+                <button class="tall" onclick="addNum(2)">
                     2
                 </button>
-                <button class="tall">
+                <button class="tall" onclick="addNum(3)">
                     3
                 </button>
 
                 
-                <button class="operator">
+                <button class="operator" onclick="divOperator()">
                     /
                 </button>
-                <button class="tall">
+                <button class="tall" onclick="addNum(0)">
                     0
                 </button>
                 <button class="tall">
                     ,
                 </button>
-                <button id="submit">
+                <button id="submit" onclick="calcFunc()">
                     =
                 </button>
 
@@ -82,17 +82,21 @@
                 <button class="operator">
                     )
                 </button>
-                <button class="operator">
+                <button class="operator" onclick="clearFunc()">
                     C
                 </button>
             </div>
         </div>
         
-
+        <!--
         <div class="yatzee">
             <h1 class="tittel">
                 Yatzee
             </h1>
         </div>
+        -->
+
+
+        <script src="calculator.js"></script>
     </body>
 </html>
